@@ -78,3 +78,21 @@ print(cnum)
 
 
 
+# 기초문제 7
+phone_number = "010-1111-2222"
+# 전화번호의 -를 제거하시오.
+print( phone_number.replace("-"," "))
+aaa = '01-sample.png'
+print(aaa.replace('.png','.jpg'))
+
+
+
+# 기초문제 8
+url = "http://sharebook.kr"
+# 위에서 kr을 출력하세요. (split() 사용가능)
+print(url.split(".")[1])
+print(url[-2:])
+
+
+
+
