@@ -11,8 +11,7 @@ print("안녕하세요")
 my_list = [1,3,2]
 my_list.sort()
 print(my_list)
-
-
+ 
 
 weather = input("오늘 날씨 어때요??? [비, 눈, 미세먼지, 맑음] : ")
 print("input type : ", type(weather))

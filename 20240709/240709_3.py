@@ -1,5 +1,4 @@
-# 구구단 출력 프로그램
-
+# 구구단 출력 프로그램 
 def gugudan(dan):
     #print(f"--- {dan}단 ---")    
     for i in range(1, 10):
@@ -9,7 +8,6 @@ def gugudan(dan):
 
 for i in range(2, 10):
     gugudan(i)
-    
 
 # 사용자로부터 단수를 입력받음
 # try:
