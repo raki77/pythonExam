@@ -93,6 +93,9 @@ url = "http://sharebook.kr"
 print(url.split(".")[1])
 print(url[-2:])
 
-
-
+import re
+x = re.split("\.",url)
+print(x[1])
+ 
+ 
 
