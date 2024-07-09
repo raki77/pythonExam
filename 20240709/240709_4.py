@@ -55,7 +55,21 @@ letters = 'python'
 #위에서 p t 를 출력 하세요.
 print(letters[0], letters[2])
 print(letters.replace("hon","").replace("y"," "))
+print(letters[0:3].replace("y", " "))
+print(letters[:2])
+print(letters[2:])
+print(letters[::2])
+idx = letters.find('t')
+print(letters[0:idx+1].replace("y", " "))
 
 
 
+# 기초문제 6
+# license_plate = "24가 2210"
+# 2210 만 출력 하세요.
+license_plate = "24가 2210"
 
+print(license_plate[-4:])
+print(license_plate[4:])
+cnum = license_plate[license_plate.find("2210"):]
+print(cnum)
