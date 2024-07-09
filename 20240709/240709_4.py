@@ -21,12 +21,40 @@ def createNum(cnt):
             idx += 1
             break                
 createNum(5)
+
     
 # 기초문제 1
 print("Mary's cosmetics")
 
+
 # 기초문제 2
 print('신씨가 소리 질렀다. "도둑이야."')
+
+
+# 기초문제 3
+# naver;kakao;sk;samsung  프린터 문에서(sep=";") 사용
+print("naver", "kakao", "sk", "samsung", sep=";")
+print("naver", "kakao", "sk", "samsung", sep=".")
+
+
+
+import operator
+# 기초문제 4
+s = "hello"
+t = " python"
+# 두 개의 변수가 있다. 변수를 이용해서 
+# hello! python 를 출력 하세요.
+print(s, t, sep="!")
+print(s + "!" + t)
+print(operator.concat((s + "!"), t))
+
+ 
+
+# 기초문제 5
+letters = 'python'
+#위에서 p t 를 출력 하세요.
+print(letters[0], letters[2])
+print(letters.replace("hon","").replace("y"," "))
 
 
 
