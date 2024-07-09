@@ -73,3 +73,8 @@ print(license_plate[-4:])
 print(license_plate[4:])
 cnum = license_plate[license_plate.find("2210"):]
 print(cnum)
+cnum = license_plate[license_plate.index(' ')+1:4] 
+print(cnum)
+
+
+
