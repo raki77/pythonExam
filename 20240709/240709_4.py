@@ -96,6 +96,44 @@ print(url[-2:])
 import re
 x = re.split("\.",url)
 print(x[1])
- 
- 
+
+
+
+# 기초문제 9 (strip)
+data = "    삼성전자    "
+print(data)
+print(data.strip())
+
+
+
+# 기본 사용 예제
+x = 10
+print(isinstance(x, int))  # True
+y = "hello"
+print(isinstance(y, str))  # True
+
+
+# 기초문제 10
+tkn =  "btc_krw"
+# (upper 함수를 사용하여, 대문자로 바꾸어 출력 하세요.)
+print(tkn.upper())
+tkn2 =  "BTC_KRW"
+print(tkn2.lower())
+
+
+
+# 리스트 컴프리헨션의 문법은 다음과 같다. ‘if 조건문’ 부분은 앞의 예제에서 볼 수 있듯이 생략할 수 있다.
+# [표현식 for 항목 in 반복_가능_객체 if 조건문]
+
+a = [1,2,3,4]
+result = [num * 3 for num in a if num % 2 == 0] # 3,6,9,12 에서 나눠서 나머지가 2인 값들
+print(result)
+#[6, 12]
+
+# mod1.py 모듈로 생성함.
+import mod1
+print(mod1.add(3, 4))
+print(mod1.add(4, 2))
+
+
 
