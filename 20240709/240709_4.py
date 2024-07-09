@@ -1,3 +1,4 @@
+
 # 파이썬으로 LOTTO 추천번호 자동생성 프로그램을 만들어 봅시다.
 # 1. random 함수 사용
 # 2. 6개 번호 생성 + 1개 번호를 추천. (보너스)
@@ -18,7 +19,15 @@ def createNum(cnt):
             #print(sorted(result))
             print(result)
             idx += 1
-            break        
-        
+            break                
 createNum(5)
     
+# 기초문제 1
+print("Mary's cosmetics")
+
+# 기초문제 2
+print('신씨가 소리 질렀다. "도둑이야."')
+
+
+
+
