@@ -15,7 +15,8 @@ def createNum(cnt):
     while cnt >= idx:      
         result = [random.randint(1, 46), random.randint(1, 46),random.randint(1, 46),random.randint(1, 46),random.randint(1, 46),random.randint(1, 46), random.randint(1, 46)]        
         while has_duplicates(result) != True:            
-            print(result)        
+            #print(sorted(result))
+            print(result)
             idx += 1
             break        
         
