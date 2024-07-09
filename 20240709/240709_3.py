@@ -20,3 +20,5 @@ for i in range(2, 10):
 #     print("유효한 숫자를 입력해주세요.")
 
 
+for waiting_no in [101, 102, 103, 104, 105]:
+    print(f"대기번호 : {waiting_no}")
