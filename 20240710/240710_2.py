@@ -34,7 +34,50 @@ c1.status()
 c2.status()
 c3.status()
 
+#########################################################
+
+class Person:
+    # 초기화 메서드 (생성자)
+    def __init__(self, name, age):
+        self.name = name  # 이름 속성
+        self.age = age    # 나이 속성
+
+    # 인사 메서드
+    def greet(self):
+        print(f"Hello, my name is {self.name} and I am {self.age} years old.")
+
+    # 나이 증가 메서드
+    def have_birthday(self):
+        self.age += 1
+        print(f"Happy birthday, {self.name}! You are now {self.age} years old.")
+
+# 클래스 인스턴스 생성
+person1 = Person("Alice", 30)
+person2 = Person("Bob", 25)
+
+# 메서드 호출
+person1.greet()
+person2.greet()
+
+# 생일 맞이
+person1.have_birthday()
+person2.have_birthday()
 
 
 
 
+#####################################################
+
+con = '나라'
+con = '우리'
+print(con, con, sep=";")
+print(con, con, end=";")
+print()
+print(con)
+
+
+str1 = "Mom's chicken"
+print("Mom","s chicken", sep="'")
+print(not(5 > 10)) 
+
+print(type("연탄이"))
