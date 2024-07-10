@@ -27,17 +27,16 @@ createNum(5)
 
 
 # sample test
-print("-"*80)
+print("-" * 80)
 
 from random import *
-lnum = set([]) #set
-#cnt = 1
-#while cnt < 7: #True:
+
 for i in range(7):
-    lnum.add(int(random()*45) +1) 
-    if len(lnum) == 7:
-        break
-#cnt += 1
+    lnum = set([]) #set
+    while True:
+        lnum.add(int(random()*45) +1)  # for creating 1 ~ 46 random number.
+        if len(lnum) == 6:
+            break
 print(sorted(lnum))
 
 
