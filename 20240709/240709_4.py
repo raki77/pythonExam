@@ -21,23 +21,29 @@ def createNum(cnt):
             print(result)
             idx += 1
             break                
-createNum(5)
+createNum(5) 
 
 
 
 
 # sample test
 print("-" * 80)
-
-from random import *
-
-for i in range(7):
+ 
+#for i in range(7):
+def oneLine():
     lnum = set([]) #set
     while True:
-        lnum.add(int(random()*45) +1)  # for creating 1 ~ 46 random number.
+        lnum.add(int(random.random()*45) +1)  # for creating 1 ~ 46 random number.
         if len(lnum) == 6:
             break
-print(sorted(lnum))
+    print(sorted(lnum)) 
+
+
+lottoCnt = int(input("How many lucky lotto cnt you want? "))
+for i in range(lottoCnt):
+    oneLine()
+    
+  
 
 
 # 기초문제 1
