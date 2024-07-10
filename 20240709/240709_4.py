@@ -5,6 +5,7 @@
 # 3. 번호는 중복되면 안됩니다.
 # 4. 1 부터 45 사이의 번호로 추천 되어야 합니다.
 # 5. 한번에 5줄 추천 합니다.
+# Automatic Create LOTTO Program
 
 import random
 
@@ -22,7 +23,24 @@ def createNum(cnt):
             break                
 createNum(5)
 
-    
+
+
+
+# sample test
+print("-"*80)
+
+from random import *
+lnum = set([]) #set
+#cnt = 1
+#while cnt < 7: #True:
+for i in range(7):
+    lnum.add(int(random()*45) +1) 
+    if len(lnum) == 7:
+        break
+#cnt += 1
+print(sorted(lnum))
+
+
 # 기초문제 1
 print("Mary's cosmetics")
 
