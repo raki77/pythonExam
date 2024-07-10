@@ -16,6 +16,7 @@ print(jumin_no[::3]) # 3씩 뛰어서 출력
 print(jumin_no[::4]) # 4씩 뛰어서 출력
 
 print(jumin_no[7:8])
+print(jumin_no[7])
 print(jumin_no[-7])
 print("male" if jumin_no[7] == "1" else "female")
 
