@@ -24,16 +24,16 @@ class outPeriod :
     def __init__(self, prm1):
         self.mTime = prm1
         
-    def timeToDay(self) :
-        print(self.mTime, "시간은, ", self.mTime//24, "일 입니다.", sep="")
-        self.mDay = self.mTime/24        
+    def timeToDay(self, prm2) :
+        print(self.mTime, "시간은, ", self.mTime//prm2, "일 입니다.", sep="")
+        self.mDay = self.mTime/prm2        
     
     def dayToYear(self) :
         print(int(self.mDay//365),"년, ", end="")
         print(int(self.mDay % 365), "일 입니다.", sep="") 
     
 outClass = outPeriod(10000)
-outClass.timeToDay()
+outClass.timeToDay(24)
 outClass.dayToYear()
  
 
