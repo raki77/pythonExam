@@ -160,15 +160,72 @@ print(resultDict)
 # 추가설명 : 010 강북구, 011 강북구, 012강북구, 013 도봉구..)
 
 # 사용자는 01035 입력 # print("안녕하세요? 강북구 주민이시군요") inum = "01035"
-inum = input("우편번호를 입력하시오 : ")
+sNum = input("우편번호를 입력하시오 : ")
 pos = {"01" : ["강북구","강북구","강북구","도봉구","도봉구","도봉구","노원구","노원구","노원구","노원구"]}
 tmpLst = []
 for key, value in pos.items(): 
-    if key == inum[0:2]:
+    if key == sNum[0:2]:
         tmpLst = value  
 try:
-    print("안녕하세요?", tmpLst[int(inum[2:3])] ,"주민이시군요")
+    print("안녕하세요?", tmpLst[int(sNum[2:3])] ,"주민이시군요")
 except:
-    print("Error")
-    
+    if len(sNum) != 5 :
+        print("우편번호 양식에 맞지 않습니다. [Error]")
+    else:
+        print("포함되지 않는 우편번호 입니다. ["+ sNum +"]")
 
+
+
+# 형설고등학교 3학년 기말고사 수학, 영어, 국어의 성적을 딕셔너리로 구축하고
+# 각 개인의 평균과 총점을 구하세요.
+# 1. 키로 학번을 사용 하는데, 1번 ~ 9번까지 있슴
+# 2. 수학, 영어, 국어 순으로 점수 값만 딕셔너리로 구성하라
+# 3. 평균은 소수점 1자리에서, 반올림하셔서 정수로 출력하라
+# 4. 총점도 표시하고, 실행하면 1번~ 9번까지 성적 목록을 출력하라.
+# 5. 학번, 국어, 영어, 수학, 총점, 평균 순으로 목록을 출력하라.
+
+
+import random
+
+student = [] 
+result = []
+info = {   
+    "num" : 0 ,
+    "score" : {        
+        "korean" : 0,
+        "english" : 0,
+        "math" : 0
+    },
+    "total" : 0,
+    "avg" : 0
+}
+
+for i in range(9):
+    student.append(info)  
+    tmp = student[i]
+    for key, value in tmp.items():  
+        if key == "num" : 
+            tmp["num"] = i+1 
+        if key == "score" :
+            score = tmp["score"]
+            score["korean"] = random.randint(1, 100)             
+            score["english"] = random.randint(1, 100) 
+            score["math"] = random.randint(1, 100) 
+            tmp["total"] = score["math"] + score["english"] + score["korean"]
+            tmp["avg"] = round(tmp["total"]/3, 1)         
+        student[i] = tmp       
+    print(student[i])     
+
+#class_list = [cl for cl in range(1, 9+1)]
+#print(class_list)
+#print(round(94.77, 0))
+
+import random
+import numpy
+
+gimal = {i : random.sample(range(60, 100), 3) for i in range(1,10)}
+print(gimal)
+
+print('학번', '국어', '영어', '수학', '총점', '평균')
+for item in gimal.items() :    
+    print(f'{item[0]:2} {item[1][0]:4} {item[1][1]:4} {item[1][2]:4} {numpy.sum(item[1]):4} {int(round(numpy.average(item[1]),0)):3} ')
