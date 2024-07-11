@@ -53,6 +53,3 @@ outClass.dayToYear()
 # print(statistics.median(data))
 # print(statistics.variance(data))
 
-
-
-
