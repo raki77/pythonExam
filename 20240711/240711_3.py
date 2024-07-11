@@ -73,5 +73,51 @@ for i in range(len(movi)):
 # print("Tuple : ", movi)
 
 
+print()
+ice = {"월드콘":700, "메로나":300, "죠스바":250}
+print(ice["월드콘"])
+print(type(ice["월드콘"]))
+print(ice.keys())
+print(ice.values())
 
 
+
+ipt = int(input("score:"))
+score = {81:"A", 61:"B", 41:"C", 21:"D", 0:"E"} 
+
+for key, value in score.items():
+    if ipt < 21:
+        ipt = 0
+    elif ipt < 41:
+        ipt = 21
+    elif ipt < 61:
+        ipt = 41
+    elif ipt < 81:
+        ipt = 61
+    elif ipt < 101:
+        ipt = 81
+    else:
+        print("Out of lange score")   
+    if ipt == key :
+        print(f"{value}")
+ 
+ 
+#딕셔너리 환율 정보를 구성하고 원을 입력받아 4개의 통화로 계산하세요.
+currencyDict = {
+    "달러" : 1167,
+    "엔": 1096,
+    "유로" : 1268,
+    "위안" : 171
+}
+resultDict = {}
+ipt2 = int(input("단위변환 원하는 금액을 입력하세요(원화단위):"))
+for key, value in currencyDict.items():
+    if key == "달러" :
+        resultDict["달러"] = round(ipt2 / value, 2)
+    if key == "엔" :
+        resultDict["엔"] = round((ipt2*100) / value, 2)
+    if key == "유로" :
+        resultDict["유로"] = round(ipt2 / value, 2)
+    if key == "위안" :
+        resultDict["위안"] = round(ipt2 / value, 2)        
+print(resultDict)
