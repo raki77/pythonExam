@@ -441,11 +441,23 @@
 
 #######################################################################################################
 # 12. 데이터 마이닝 도구 및 라이브러리
-#       Python: 
+#       Python 언어: 
 #           Pandas, 
 #           NumPy, 
 #           Scikit-learn
-#       R: 
+                # Scikit-learn은 Python 프로그래밍 언어를 기반으로 하는 기계 학습 라이브러리로, 
+                # 다양한 분류(classification), 회귀(regression), 클러스터링(clustering) 알고리즘을 제공합니다. 
+                # Scikit-learn은 간단하고 일관된 API를 제공하며, NumPy, SciPy, Matplotlib 등의 다른 라이브러리와 잘 통합됩니다. 
+                
+                # 주요 모듈과 기능 :
+                #     데이터 전처리 (Preprocessing): Scikit-learn은 데이터 스케일링, 정규화, 결측값 처리, 범주형 데이터 인코딩 등의 기능을 제공합니다.
+                #     모델 선택 (Model Selection): 교차 검증, 하이퍼파라미터 튜닝 등의 기능을 포함합니다.
+                #     분류 (Classification): 로지스틱 회귀, SVM, K-NN, 결정 트리, 랜덤 포레스트 등 다양한 분류 알고리즘을 제공합니다.
+                #     회귀 (Regression): 선형 회귀, 리지 회귀, 라쏘 회귀, 결정 트리 회귀, 랜덤 포레스트 회귀 등의 회귀 알고리즘을 제공합니다.
+                #     클러스터링 (Clustering): K-평균, DBSCAN, 계층적 클러스터링 등의 클러스터링 알고리즘을 제공합니다.
+                #     모델 평가 (Model Evaluation): 정확도, 정밀도, 재현율, F1 점수, ROC-AUC 등 다양한 평가 지표를 제공합니다.
+                
+#       R 언어: 
 #           caret, 
 #           dplyr, 
 #           ggplot2
