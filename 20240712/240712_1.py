@@ -51,3 +51,12 @@ for item in gimal.items() :
     print(f'{item[0]:2} {item[1][0]:4} {item[1][1]:4} {item[1][2]:4} {numpy.sum(item[1]):4} {int(round(numpy.average(item[1]),0)):3} ')
 
 
+
+
+for i in range(1,10):
+    sList = gimal[i]
+    tot = sList[0] + sList[1] + sList[2]
+    ave = round(tot/3, 1)
+    print(f"수학 : {sList[0]}, 영어 : {sList[1]}, 국어 : {sList[2]}")
+    print(f"합계 : {tot}, 평균 : {ave}")
+
