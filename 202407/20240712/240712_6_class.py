@@ -53,29 +53,29 @@ class telAddr:
                 del self.telBook[i]
                 break
             
-test = telAddr("순희", 24, "010-625-9928")
-test.setTelBook("철수", 36, "010-536-9019")
-test.setTelBook("말희", 40, "010-893-0092")
-test.setTelBook("순신", 26, "010-772-9920")
+mPhoneBook = telAddr("순희", 24, "010-625-9928")
+mPhoneBook.setTelBook("철수", 36, "010-536-9019")
+mPhoneBook.setTelBook("말희", 40, "010-893-0092")
+mPhoneBook.setTelBook("순신", 26, "010-772-9920")
 
 print("-"*60)
 print("found data you want")
 print("-"*60)
-test.output("철수")
-test.output("말희")
+mPhoneBook.output("철수")
+mPhoneBook.output("말희")
 print("-"*60)
 
-test.updateName("철수", "철수2") 
-test.updateAge("철수2", 40)
-test.updatePhone("철수2", "010-9999-1234")
+mPhoneBook.updateName("철수", "철수2") 
+mPhoneBook.updateAge("철수2", 40)
+mPhoneBook.updatePhone("철수2", "010-9999-1234")
 
 print("-"*60)
 print("Before remove")
 print("-"*60)
-print(test.telBook)
-test.deleteInfo("순신")
+print(mPhoneBook.telBook)
+mPhoneBook.deleteInfo("순신")
 
 print("-"*60)
 print("After remove")
 print("-"*60)
-print(test.telBook)
+print(mPhoneBook.telBook)
