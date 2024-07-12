@@ -50,16 +50,14 @@ print(gimal)
 # for item in gimal.items() :    
 #     print(f'{item[0]:2} {item[1][0]:4} {item[1][1]:4} {item[1][2]:4} {numpy.sum(item[1]):4} {int(round(numpy.average(item[1]),0)):3} ')
 
-
-print("="*60)
-print('학번', '국어', '영어', '수학', '총점', '평균')
-print("-"*60)
-for i in range(1,10):
-    sList = gimal[i]
-    tot = sList[0] + sList[1] + sList[2]
-    ave = round(tot/3, 1)
-    #print(f"수학 : {sList[0]}, 영어 : {sList[1]}, 국어 : {sList[2]}, 합계 : {tot}, 평균 : {ave}")
-    print(f" {i},  {sList[0]},  {sList[1]},  {sList[2]},  {tot},  {ave} ")
-
-
+def scor(hakbun):
+    print("="*60)
+    print('학번', '국어', '영어', '수학', '총점', '평균')
+    print("-"*60)
+    for i in range(1, hakbun+1):
+        sList = gimal[i]
+        tot = sList[0] + sList[1] + sList[2]
+        ave = round(tot/3, 1)        
+        print(f" {i},  {sList[0]},  {sList[1]},  {sList[2]},  {tot},  {ave} ")  #print(f"수학 : {sList[0]}, 영어 : {sList[1]}, 국어 : {sList[2]}, 합계 : {tot}, 평균 : {ave}")
+scor(5)
 
