@@ -37,3 +37,36 @@ def sum(*_param):
 
 valSum = sum(100, 150)
 print(f"반환된 값은? {valSum} 입니다.")
+
+
+# 기초문제 함수2
+# 사이드 URL 출력하는 함수를 만들어라.
+# (닷컴 사이트)
+# 1. 함수명은 make_url 입니다.
+# 2. URL 출력 하시오.
+# 3. 사용은 다음과 같이 할 예정 입니다.
+
+# def make_url(_param):
+#     return _param
+
+# url = make_url("naver")
+# print(f"URL은 {url} 입니다.")
+
+
+def make_url(input_string):    
+    url_map = {
+        "naver": "http://www.naver.com",
+        "google": "http://www.google.com",
+        "youtube": "http://www.youtube.com"        
+    }        
+    return url_map.get(input_string.lower(), "Invalid input")
+ 
+url = make_url("naver")
+print(url)
+url = make_url("google")
+print(url)
+url = make_url("youtube")
+print(url)
+url = make_url("xxxxxxxx")
+print(url)
+
