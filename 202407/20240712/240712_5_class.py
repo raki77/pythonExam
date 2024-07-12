@@ -69,8 +69,9 @@ class SafeFourCal(FourCal):
         else :
             return self.first / self.second
 
-a = SafeFourCal(4, 0)
+#a = SafeFourCal(4, 0)
+a = SafeFourCal(4, 2)
 res = a.div()
-print(f"{res}")
+print(f"{int(res)}")
 
 
