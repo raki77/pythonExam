@@ -47,15 +47,35 @@ class telAddr:
             if key[0] == _origin:
                 key[2] = _target
                 break 
+    def deleteInfo(self, _origin):
+        for i in range(len(self.telBook)):
+            if self.telBook[i][0] == _origin:
+                del self.telBook[i]
+                break
             
 test = telAddr("순희", 24, "010-625-9928")
 test.setTelBook("철수", 36, "010-536-9019")
 test.setTelBook("말희", 40, "010-893-0092")
 test.setTelBook("순신", 26, "010-772-9920")
+
+print("-"*60)
+print("found data you want")
+print("-"*60)
 test.output("철수")
 test.output("말희")
+print("-"*60)
 
 test.updateName("철수", "철수2") 
 test.updateAge("철수2", 40)
 test.updatePhone("철수2", "010-9999-1234")
+
+print("-"*60)
+print("Before remove")
+print("-"*60)
+print(test.telBook)
+test.deleteInfo("순신")
+
+print("-"*60)
+print("After remove")
+print("-"*60)
 print(test.telBook)
