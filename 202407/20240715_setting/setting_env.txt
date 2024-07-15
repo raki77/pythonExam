@@ -1,4 +1,18 @@
 
+
+==================================================================
+HTML용 VSCode 확장 프로그램 설치하기
+------------------------------------------------------------------
+코드의 생산성을 높일 수 있는 유용한 프로그램(프로그램명/제작자명)
+Live Server(프로그램명)/Ritwick Dey(제작자명)
+Auto Rename Tag/Jun Han
+HTML to CSS autocompletion/solnurkarim
+HTML CSS Support/ecmel
+Code Runner/Jun Han
+Korean Language Pack for Visual Studio Code/Microsoft
+
+
+
 visual studio code : 대부분 언어 커버
 IDE : 통합개발환경, integrated deveopment enviornment 
 
