@@ -1,3 +1,12 @@
+
+python 만든이 : 91년 귀도 반 로섬 (guido van Rossum) 
+java : 95년
+
+타닥타닥 타자연습
+
+엑셀 단축키:
+'1' 입력하고, ctrl + enter 선택하면 선택영역에 동일하게 입력
+
 asciitable.com
 ASCII 코드 >>> A: 64
 
