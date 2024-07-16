@@ -18,6 +18,8 @@
 # integer : 정수
 # float : 실수
 # string : 문자열
+# boolean : 참, 거짓
+
 
 
 # ^ : 캐럿
