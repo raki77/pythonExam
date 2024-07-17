@@ -1,5 +1,9 @@
 
-
+Q: "{}*{}={}".format(10, 10) 
+  IndexError: Replacement index 2 out of range for positional args tuple
+  args : 인수
+A:
+ "{}*{}={}".format(10, 10, 100) 
 
 Q: 
     int("52.273")

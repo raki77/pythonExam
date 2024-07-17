@@ -1,5 +1,8 @@
 
 
+검색 프로그램 : everything
+
+
 ==================================================================
 HTML용 VSCode 확장 프로그램 설치하기
 ------------------------------------------------------------------
@@ -16,8 +19,7 @@ Korean Language Pack for Visual Studio Code/Microsoft
 visual studio code : 대부분 언어 커버
 IDE : 통합개발환경, integrated deveopment enviornment 
 
-
-C:\Users\USER\AppData\Local\Programs\Microsoft VS Code
+vscode path, 설치경로 : C:\Users\USER\AppData\Local\Programs\Microsoft VS Code
 vscode: 다른 제품과 호환성이 아주 높다.
 
 1. 프로그래밍 : a. 프로그램을 만드는 것
@@ -37,7 +39,7 @@ java : 95년
 '1' 입력하고, ctrl + enter 선택하면 선택영역에 동일하게 입력
 
 asciitable.com
-ASCII 코드 >>> A: 64
+ASCII 코드 >>> A: 64, a : 97
 
 ip주소
     10.0.58.84
