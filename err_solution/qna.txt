@@ -1,3 +1,16 @@
+
+
+
+Q: 
+    int("52.273")
+A: 
+    ValueError: invalid literal for int() with base 10: '52.273'
+
+Q: 
+    # int('육')   
+A: 
+    ValueError: invalid[유효하지 않는] literal[값] for int() with base 10: '육'
+
 Q: 
     >>> 1 + "1"
     Traceback (most recent call last):
