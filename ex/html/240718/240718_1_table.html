@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <!-- <script src='main.js'></script> -->
+    <!-- collapse : 안하면 테이블 셀이 떨어진다. border-collapse: seperate -->
+    <style>
+        table {       
+            border-collapse: collapse;      
+        }
+        th, td {
+            border: 2px solid #1100ff;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <!--
+        행 : row,  열 : column
+        선형대수 : 선모양 linear
+        y = ax+b
+        행렬 < 벡터 < 스칼라 (벡터가 여러 개)
+
+        공간 한정, 2중 for구문 사용,
+        면 개념 사용 후 반복
+    -->
+    <table>
+        <tr>
+            <th>번호</th>
+            <th>상품명</th>
+            <th>수량</th>
+            <th>가격</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>콜라</td>
+            <td>1개</td> 
+            <td>1,500원</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>사이다</td>
+            <td>2개</td> 
+            <td rowspan="2">1,000원</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>탄산수</td>
+            <td>3개</td>             
+        </tr>
+        <tr>
+            <td>총 금액</td>
+            <td colspan="3">6,500원</td>            
+        </tr>
+    </table>
+</body>
+</html>

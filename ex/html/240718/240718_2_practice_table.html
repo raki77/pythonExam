@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <!-- <script src='main.js'></script> -->
+    <!-- collapse : 안하면 테이블 셀이 떨어진다. border-collapse: seperate -->
+    <style>
+        table {       
+            border-collapse: collapse;      
+        }
+        th, td {
+            border: 2px solid #000000;
+            text-align: center;
+        }
+        .color1 {
+            background-color: rgb(218, 169, 134);            
+        }
+        .color2 {
+            background-color: rgb(58, 141, 90);            
+        }
+        .bol {
+            font-weight: bold;
+        }
+        .tit {
+            font-size: large;
+        }
+    </style>
+</head>
+<body>
+    <!--
+        행 : row,  열 : column
+        선형대수 : 선모양 linear
+        y = ax+b
+        행렬 < 벡터 < 스칼라 (벡터가 여러 개)
+
+        공간 한정, 2중 for구문 사용,
+        면 개념 사용 후 반복
+    -->
+    <table>        
+        <caption class="bol tit">우도입도 총괄요금표</caption>
+        <tr>
+            <td rowspan="2" class="color2 bol" >구분</td>
+            <td colspan="3" class="color1 bol">우도입도 총괄요금표</td>            
+        </tr>
+        <tr> 
+            <td class="bol">선박요금</td>
+            <td class="bol">도립공원입장료</td> 
+            <td class="bol">터미널이용료</td>
+        </tr>
+        <tr>
+            <td class="color2 bol">성인</td>
+            <td>2,000원</td>
+            <td>1,000원</td> 
+            <td>500원</td>
+        </tr>
+        <tr>
+            <td class="color2 bol">중학생이상</td>
+            <td>2,000원</td>
+            <td>800원</td> 
+            <td>300원</td>
+        </tr>
+        <tr>
+            <td class="color2 bol">초등학생</td>
+            <td>700원</td>
+            <td>500원</td> 
+            <td>300원</td>
+        </tr>
+        <tr>
+            <td colspan="4" style="font-size: small;">*이륜차(오토바이, 자전거) 및 화물차량은 별도 목적</td>
+        </tr>
+    </table>
+</body>
+</html>
