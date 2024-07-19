@@ -1,4 +1,8 @@
-Q: TypeError: 'tuple' object does not support item assignment
+
+
+
+Q: 
+    TypeError: 'tuple' object does not support item assignment
 A:
     # 값 변경 불가 : 튜플 (1,2,3,4,5 ...) [DB행]
     menu_t = ("짜장면", "짬뽕", "볶음밥")
