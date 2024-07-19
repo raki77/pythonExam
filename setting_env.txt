@@ -19,10 +19,7 @@ Code Runner/Jun Han
 Korean Language Pack for Visual Studio Code/Microsoft
 
 
-
 visual studio code : 대부분 언어 커버
-IDE : 통합개발환경, integrated deveopment enviornment 
-
 vscode path, 설치경로 : C:\Users\USER\AppData\Local\Programs\Microsoft VS Code
 vscode: 다른 제품과 호환성이 아주 높다.
 

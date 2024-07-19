@@ -49,6 +49,8 @@ www.naver.com/robots.txt
     능숙한 코딩 가능, 필요한 소스를 가져다 쓰는 정도가 아닌 노하우를 가지고 상황에 따라 최적의 소스코드를 구현할 줄 알며 오류에 대처할 수 있다.																				
 개발자 :
     폭 넓은 전문가로서 서로 다른 시스템에 대한 지식이 뛰어나며 다양한 언어를 사용할 줄 알고 서로 다른 언어와시스템을 이해하고 설명할 수 있다.									
+
+
 MSA : 
     microservice architecture 			
 
@@ -57,3 +59,6 @@ DBMS :
 
 preserve log :
     로그를 유지해서 출력해라.
+
+IDE : 
+    통합개발환경, integrated deveopment enviornment 
