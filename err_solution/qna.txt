@@ -1,4 +1,16 @@
+Q:
+    li2 = ['사과', '바나나'] 
+    li2.insert("파인애플", 2)
+    TypeError: 'str' object cannot be interpreted as an integer
+A:
+    li2.insert(2, "파인애플")
 
+Q: 
+    li1.extend(4,5)
+    TypeError: list.extend() takes exactly one argument (2 given)
+A:
+    li1.extend([4,5])
+    1개 인자만 정확히 넣어서 해야 된다.
 
 
 Q: 
