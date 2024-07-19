@@ -1,5 +1,13 @@
 
 
+cascading : 
+    깔맞춤. 한복은 한복, 양복은 양복
+
+head -> body위
+heading : 소제목
+header -> semantic 태그에 있다. 
+footer
+
 math.sqrt 는 (내용물)**1/2 과 같다.
 
 행 : row,  열 : column
