@@ -78,7 +78,7 @@ character = {
 }
 
 for key in character: 
-    if str(type(character[key])).find('dict') > -1: 
+    if type(character[key]) is dict: 
         for i in character[key]:
             print(f"{i} : {character[key][i]}") 
     elif str(type(character[key])).find('list') > -1:  
