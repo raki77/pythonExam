@@ -1,3 +1,11 @@
+Q: di4_3 = {[7, 8]: 'lucky', True: 'TRUE참'}
+   di4_3[[7, 8]]
+   TypeError: unhashable type: 'list'
+A: 
+    # Dictionary, key값으로 안되는 데이터 자료형은??? list
+    (Tuple은 된다.)
+    hash테이블인데(연관), list는 키값을 가질 수 없다.
+
 Q:
     li2 = ['사과', '바나나'] 
     li2.insert("파인애플", 2)
