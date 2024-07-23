@@ -1,3 +1,7 @@
+# --------------------------------------------------------------
+# ppt 04-03
+# --------------------------------------------------------------
+
 # 1. 다음 표를 채워 보세요.
 #   코드가 여러 개 나올 수 있는 경우 가장 간단한 형태를 넣어 주세요.
 li1 = [0,1,2,3,4]
@@ -27,13 +31,21 @@ limit = 10000
 i = 1
 # sum_value 변수 사용
 sum_value = 0
-while True:    
-    if sum_value > limit:
-        break
-    else :
-        sum_value += i
+while sum_value < limit:    
+    sum_value += i
     i += 1 
 print("{}를 더할 때 {}을 넘으며 그때의 값은 {}입니다.".format(i, limit, sum_value))
+
+
+sum_value = 0
+for x in range(1, limit+1):
+    if sum_value > limit:
+        i = x
+        break
+    else :
+        sum_value += x  
+print("{}를 더할 때 {}을 넘으며 그때의 값은 {}입니다.".format(i, limit, sum_value))
+
 
 
 # 4. 
