@@ -1,3 +1,8 @@
+
+* (애스터리스크): aesterisk
+    정규표현식 (Regular expression)
+ERD:
+    엔티디 관계 다이어그램
 # : 
     아이디 (유일한 값)
 . :
