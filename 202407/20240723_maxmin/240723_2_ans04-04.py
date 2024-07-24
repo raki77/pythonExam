@@ -66,11 +66,12 @@ for i in range(0, len(ipt2), 3):
     
     if bool(dict2) == False:
         dict2[str1] = 1
-    else:
-        if key.strip() != "":
-            if str1 in dict2.keys():
+    else: 
+        if str1 in dict2.keys():
+            if str1 != "":
                 dict2[str1] += 1
-            else:
+        else:
+            if str1 != "":
                 dict2[str1] = 1 
 print(dict2)
  
