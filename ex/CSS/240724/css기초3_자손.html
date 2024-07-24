@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box>p>#aaa {
+            color: red
+        } 
+        div>ul {
+            color: blueviolet
+        }  
+        div>ul:nth-child(4)>li:nth-child(1)>p {
+            color: blue;
+            font-weight: bold;
+        } 
+        body>div>ul:nth-child(6)>li:nth-child(2) {
+            color: red;
+            font-weight: bold;
+        } 
+        body>div>ul:nth-child(6)>li:nth-child(3) {
+            color: green;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <p> 축구 </p>
+        <ul>
+            <li>
+                <p>8강</p>
+            </li>
+            <li>
+                <p>16강</p>
+            </li>
+        </ul>
+        <p> 야구 </p>
+        <ul>
+            <li>
+                <p>8강</p>
+            </li>
+            <li>
+                <p>16강</p>
+            </li>
+        </ul>
+        <p> 주식 </p>
+        <ul>
+            <li>삼성전자</li>
+            <li>에코프로</li>
+            <li>HLB</li>
+        </ul>
+    </div>
+</body>
+
+</html>

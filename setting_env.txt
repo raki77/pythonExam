@@ -1,4 +1,7 @@
 
+태그정렬:
+    VScode : shift + alt + f
+
 아나콘다 (데이터분석을 위한 IDE, python.exe가 포함 됨)
 C:\anaconda3
 Download Anaconda Distribution -> Anaconda Installers -> win 64bit
