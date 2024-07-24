@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /*
+            p::before {
+                content: "해물";
+            } 
+            p::after {
+                content: "곱배기";
+            }
+*/
+        a:link {
+            color: orange;
+        } 
+        a:visited {
+            color: green
+        } 
+        p:hover {
+            color: crimson
+        } 
+        button:active {
+            color: red
+        }
+        input:enabled {
+            background-color: aqua;
+        }
+        input:checked + label {
+            background-color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <p> 짜장면 </p>
+    <a href="http://www.yes24.com">yes24</a>
+    <a href="http://www.google.com">구글</a>
+    <p>마우스 올려보세요</p>
+    <button>버튼 클릭해보세요.</button>
+    <input type="text" disabled>
+    <label for="bus"></label>
+    <input type="checkbox" disabled>    
+</body>
+
+</html>
