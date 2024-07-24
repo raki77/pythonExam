@@ -48,7 +48,8 @@ for i in range(len(ipt1)):
             dict1[ipt1[i]] = 1
 
 for key, val in dict1.items():
-    print(f"{key}의 개수: {val}")
+    if key.strip() != "":
+        print(f"{key}의 개수: {val}")
 
 
 # 염기 코돈 개수
@@ -66,10 +67,11 @@ for i in range(0, len(ipt2), 3):
     if bool(dict2) == False:
         dict2[str1] = 1
     else:
-        if str1 in dict2.keys():
-            dict2[str1] += 1
-        else:
-            dict2[str1] = 1 
+        if key.strip() != "":
+            if str1 in dict2.keys():
+                dict2[str1] += 1
+            else:
+                dict2[str1] = 1 
 print(dict2)
  
 
