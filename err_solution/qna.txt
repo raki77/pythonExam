@@ -1,3 +1,14 @@
+Q: 
+    >>> def sunja2(gift):
+    ...     print(gift+"을 받았다.")
+    ...
+    >>> sunja2()
+    Traceback (most recent call last):
+    File "<stdin>", line 1, in <module>
+    TypeError: sunja2() missing 1 required positional argument: 'gift'
+A: 
+    gift라는 파라미터가 빠졌다. parameter
+
 Q: git vscode setting: 
 A: 
    git config --global user.email "you@example.com"

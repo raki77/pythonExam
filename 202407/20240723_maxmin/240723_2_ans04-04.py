@@ -5,8 +5,16 @@
 
 
 
+# ------------------------------------------------------
 # 2진수, 8진수, 16진수로 변환하는 코드는 많이 사용됩니다.
 #     다음과 같은 형태로 10진수를 변환할 수 있습니다.
+# ------------------------------------------------------
+# 강사님 해답:
+# output = [i for i in range(1, 100+1) if "{:b}".format(i).count("0") == 1]
+# for i in output:
+#     print("{} : {}".format(i, "{:b}".format(i)))
+# print("sum:", sum(output))
+
 output = [i for i in range(1, 100+1) if f"{i:b}".count("0") == 1]
 for x, value in enumerate(output):
     print(f"{value} : {value:b}")
@@ -29,13 +37,14 @@ for i in nums:
         else :
             count[i] = 1
 print(f"{nums}에서")
+print(f"사용된 숫자의 종류는 {len(set(count))}개입니다.")
 print(f"사용된 숫자의 종류는 {len(count.keys())}개입니다.")
 print("참고:", count)
 
 
 # 염기의 개수
 # 염기 서열을 입력했을 때 각각의 염기가 몇 개 포함되어 있는지 세는 
-# 프로그램을 구현해 보세요
+# 프로그램을 구현해 보세요 ctacaatgtcagtatacccattgcattagccgg
 dict1 = {}
 ipt1 = input("염기 서열을 입력해 주세요:")
 for i in range(len(ipt1)):
