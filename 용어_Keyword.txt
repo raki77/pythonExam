@@ -1,4 +1,7 @@
-
+cdm 방식 :
+    contents
+PX (picture element): 
+    모니터 화면을 구성하는 사각형 1개의 크기
 &nbsp; :
     non-breaking space 
 tag 테그 : 
