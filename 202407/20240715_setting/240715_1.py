@@ -59,3 +59,11 @@
 
 # // = assignment : 할당하다.
 # x변수에 address 주소를 할당한다.
+
+a =1
+hello = '1'
+# $hello = '1'
+# 10_hello = 1
+bye = 1
+# print("안녕하세요"[5])
+print("안녕하세요"[:3])
