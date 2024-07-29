@@ -1,3 +1,9 @@
+
+Q: 
+    Uncaught Reference Error : b is not defined
+A: 
+    b가 정의 되지 않았다. 참조를 잡지 못함
+
 Q: 
     SyntaxError: parameter without a default follows parameter with a default
 A:

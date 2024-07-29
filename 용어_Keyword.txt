@@ -1,3 +1,22 @@
+lambda : 
+    이름이 없다. 귀찮다.    
+undefined : 
+    Node에서 undefined 자료형이 따로 있다. 주소값이 할당되지 않았다.
+
+변수 : 
+    값을 저장할 때 사용하는 식별자, 
+
+new 키워드 : 
+    새로운 주소를 부여한다.
+
+` : 악센트, 빽틱
+~ : tilde
+
+console:
+    입출력 장치
+NPM :
+    node package manager
+
 cdm 방식 :
     contents
 PX (picture element): 
