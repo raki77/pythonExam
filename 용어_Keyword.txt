@@ -1,5 +1,15 @@
+
+yield -> 중간에 리턴, 중간중간 만들기 Generate
+    # yield는 return 대신에 쓴다.
+    # return 반환하고 종료 한다.
+    # return의 단점 해소, 함수에서 로직이 끝나야 실행된다. 그래서 yield 사용
+    # 중간에서 업무 멈추고 반환, Generate
+쳇GPT, gpt :
+    Generative pre-trained transformer 
+    생성하는 미리 교육시킨 변환자(encoder, decoder) - 가중치 학습됨.
+
 lambda : 
-    이름이 없다. 귀찮다.    
+    이름이 없다. 귀찮다. 익명의 함수
 undefined : 
     Node에서 undefined 자료형이 따로 있다. 주소값이 할당되지 않았다.
 
