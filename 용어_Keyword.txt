@@ -1,4 +1,5 @@
-
+시멘틱 태그  : 
+    header, nav, section, article, aside, footer
 yield -> 중간에 리턴, 중간중간 만들기 Generate
     # yield는 return 대신에 쓴다.
     # return 반환하고 종료 한다.
