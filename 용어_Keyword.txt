@@ -1,10 +1,29 @@
+pwd : 
+    print working directory    
+psuedo : 
+    임시의, 가상의
+
+CRLF:
+    캐리지 리턴, 라인 피드
+
+ver 2.12.1 :
+    주버젼.부버젼.패치버젼
+
+이번 AI강의 진행방향:
+    1. 기준을 잘세워 한다.
+    2. 원핫 인코딩 -> 정규화 -> 표준편차 적용 -> 범위 축소, 모델이 잘 만들어 질수 있게, 
+    3. pca 분석 후 클러스터링:
+        주된 요소 2가지로 평면화 시킨다. 시각화 진행
+
 시멘틱 태그  : 
     header, nav, section, article, aside, footer
+
 yield -> 중간에 리턴, 중간중간 만들기 Generate
     # yield는 return 대신에 쓴다.
     # return 반환하고 종료 한다.
     # return의 단점 해소, 함수에서 로직이 끝나야 실행된다. 그래서 yield 사용
     # 중간에서 업무 멈추고 반환, Generate
+
 쳇GPT, gpt :
     Generative pre-trained transformer 
     생성하는 미리 교육시킨 변환자(encoder, decoder) - 가중치 학습됨.
