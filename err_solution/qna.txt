@@ -1,4 +1,20 @@
 
+---------------------------------------------------------------------------
+    ValueError                                Traceback (most recent call last)
+    <ipython-input-63-0a2981cd727e> in <cell line: 2>()
+        1 D = np.array([[5,8,9],[6,7,3]])
+    ----> 2 A + C
+    ValueError: operands could not be broadcast together with shapes (2,2) (2,3) 
+
+---------------------------------------------------------------------------
+    ValueError                                Traceback (most recent call last)
+    <ipython-input-62-b7ecdfba6630> in <cell line: 1>()
+    ----> 1 D = np.array([[5,8,9],[6,7]])
+    ValueError: setting an array element with a sequence. 
+    The requested array has an inhomogeneous shape after 1 dimensions. 
+    The detected shape was (2,) + inhomogeneous part.
+
+
 Q: 
     Uncaught Reference Error : b is not defined
 A: 

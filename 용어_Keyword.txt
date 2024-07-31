@@ -1,3 +1,30 @@
+
+추상 :
+    코끼리 뼈를 뽑는다.
+
+dot product : 
+    A = numpy.array([행렬])
+    B = numpy.array([행렬])
+    A.dot(B)
+
+대각선 : 
+    diagonal
+
+in·ho·mo·ge·ne·ous : 
+    /inˌhōməˈjēnēəs/
+    1. 불균일한
+
+Attribut information: -> Kaggle 검색 후 컨텐츠에서 나옴
+    [칼럼] 을 지칭한다. 
+    header [칼럼명], id, 주키(primary key) -> pandas에서도 키로 들어간다.
+
+transpose 트랜스포즈 : 
+    행과 열을 변경한다.
+매니폴드 : 
+    고차원을 단순화 시켜 차원 줄여서 확인한다.
+pip :
+    python index package
+    pip is the package installer for Python.
 pwd : 
     print working directory    
 psuedo : 
