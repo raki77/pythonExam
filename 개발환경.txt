@@ -1,0 +1,18 @@
+비주얼스튜디오코드
+C:\vsCode
+
+깃 경로
+C:\Git
+
+
+아나콘다 파이썬 경로
+C:\anaconda3
+
+
+conda.exe가 있는 경로
+C:\anaconda3\Scripts
+
+
+가상환경시 사용할 파이썬 버전
+3.9
+3.11

@@ -1,4 +1,19 @@
+가상환경 python 경로:
+    ver3.9:
+        C:\anaconda3\envs\myfirstvirtual1
 
+ssl :
+    secure sorket layer
+
+3.9, 3.11 :     
+    2가지 버젼으로 가상환경 구성
+    conda :
+    create , active, deactive
+
+Django, flask, streamlit (lmm과 결합 되었다.):
+    파이썬 웹 애플리케이션
+folium :
+    지도 가져오는 라이브러리
 jdk : 
     java development toolkit
 패키지 : 
