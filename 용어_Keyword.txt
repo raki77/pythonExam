@@ -1,3 +1,24 @@
+twiter 개발자 계정
+	신청하기 (일주일 소요)
+CRUD : 
+	create
+	read
+	update
+	delete
+import re :
+	reqular expression
+	정규표현식
+	
+한국어 :
+	5언 9품사
+	어근, 어간
+형태소 :
+	뜻이 있는 최소 단위
+url :
+	uniform resource locator
+raise :
+    파이썬 예약어, 강제로 예외를 발생 시킨다.
+    
 가상환경 python 경로:
     ver3.9:
         C:\anaconda3\envs\myfirstvirtual1
