@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script> 
+        idx = 11;
+        p1 = function() {    
+            window.document.getElementById("target").innerText = (--idx);  
+        }          
+        setInterval(p1, 1000);
+    </script>
+</head>
+<body>    
+    카운트 다운 :<span id="target"></span>
+</body>
+</html>
