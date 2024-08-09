@@ -3,8 +3,10 @@ stu_height <-c(166,168,170,172,174)
 
 m <- mean(stu_height)
 
+# 분산
 var(stu_height)
 
+# 표준편차
 sd (stu_height)
 
 # 상관과 회귀
