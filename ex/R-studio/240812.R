@@ -36,7 +36,7 @@ beads <- c(rep("Red", 7), rep("Blue", 5))
 # sample(x, size, replace = FALSE, prob = NULL)
 ?sample
 
-sample(beads, 3, replace = TRUE)
+sample(beads, 1, replace = TRUE)
 
 (5/12) * (5/12)
 
