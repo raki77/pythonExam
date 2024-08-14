@@ -25,3 +25,6 @@ summary(linear_model1)
  
 
 0.8879209^2
+
+
+
