@@ -58,5 +58,12 @@ lm(perch_length~ perch_weight)
 
 summary(lm(perch_length~ perch_weight))
 
+# -----------------------------------------------------
+# 선형회귀 확인
+
+ls()
+
+
+
 
 
